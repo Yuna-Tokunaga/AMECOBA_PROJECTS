@@ -1,0 +1,56 @@
+.header-logo {
+  float: left;
+  padding: 15px 60px;
+}
+.header-list li {
+  float: left;
+  padding: 15px 30px;
+  list-style: none;
+}
+.header {
+  background-color: pink;
+  color: gray;
+  height: 50px;
+  hight: 50px;
+}
+
+.main {
+  height: 100px;
+  margin: 50px 60px;
+}
+.main h2 {
+  color: gray;
+  border-bottom: 2px solid lightgray;
+  margin-bottom:20px;
+}
+
+.main h4 {
+margin-top: 40px;
+color: gray;
+
+}
+
+.main span {
+  color: pink;
+}
+
+.contents-iteme img{
+  height: 150px;
+  width: 150px;
+}
+
+.contents-iteme p {
+  color: gray;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.contents {
+  height: 500px;
+  margin: 24px 10px 100px 50px;
+  float: left;
+}
+
+.contents-iteme {
+  float: left;
+  padding: 10px;
+}
