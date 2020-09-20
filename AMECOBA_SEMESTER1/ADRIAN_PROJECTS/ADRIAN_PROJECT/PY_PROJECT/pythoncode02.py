@@ -1,5 +1,5 @@
-import requests
-from bs4 import BeautifulSoup
+import requests #Requests がWebサイトからWebページを取得するライブラリ
+from bs4 import BeautifulSoup #Beautiful Soup がWebページを解析して情報を抽出するライブラリ
 
 # WebサイトのURLを指定
 url = "https://news.google.com/?hl=ja&gl=JP&ceid=JP:ja"
