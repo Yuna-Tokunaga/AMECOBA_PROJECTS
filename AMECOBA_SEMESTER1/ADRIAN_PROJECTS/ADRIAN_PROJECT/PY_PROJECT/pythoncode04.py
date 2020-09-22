@@ -23,6 +23,6 @@ while(int(item_no) != -1): #商品番号に-1 が入力されるまで15行目�
 df = pd.DataFrame(item_list ,columns=['商品番号', '商品名', '価格']) #列名
 
 with pd.ExcelWriter("商品リスト.xlsx") as writer:
-    df.to_excel(writer, index=False) #エクセルファィルに書き出し
+    df.to_excel(writer, index=False) #エクセルファィルに書き出し index=False(要素番号削除するときに用いる)
 
 print("プログラム終了")
