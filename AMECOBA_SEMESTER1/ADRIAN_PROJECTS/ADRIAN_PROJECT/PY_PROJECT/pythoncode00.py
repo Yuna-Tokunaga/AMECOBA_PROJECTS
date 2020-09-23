@@ -4,7 +4,7 @@ import locale
 locale.setlocale(locale.LC_ALL, 'ja_JP.UTF-8')
 
 dt = datetime.datetime.now()
-# dt = datetime.datetime(2019, 12, 4 ,15, 35, 58, 469)
+
 
 print(dt)
 print(dt.strftime('%c'))
