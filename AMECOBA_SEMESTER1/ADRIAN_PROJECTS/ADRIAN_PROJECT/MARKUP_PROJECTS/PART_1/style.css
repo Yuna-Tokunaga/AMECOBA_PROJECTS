@@ -1,0 +1,15 @@
+/* タイプセレクタ。pタグ全てに適用される */
+p {
+    color : brown;
+  }
+  
+  /* idセレクタ。指定idを持つタグに適用される */
+  #textBox {
+    font-size : 20px;
+  }
+  
+  /* classセレクタ。class名が一致するタグに適用 */
+  .sample-text {
+    background-color : green;
+    color : #fff;  /* 白 */
+  }
