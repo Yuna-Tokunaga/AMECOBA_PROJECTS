@@ -20,3 +20,12 @@ del fruits["banana"]  #バリューの方を指定したらKEYERRORが起こる�
 for fruit in fruits:
     print(fruit)
 
+
+
+BOOKS = {"python": "1200",
+        "ruby": "3000",
+        "javascript":"2500"}
+
+
+for BOOK in BOOKS:
+    print(BOOK)
