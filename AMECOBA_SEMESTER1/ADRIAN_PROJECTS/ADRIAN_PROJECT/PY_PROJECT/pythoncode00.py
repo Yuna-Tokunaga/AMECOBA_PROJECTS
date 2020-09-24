@@ -1,13 +1,13 @@
-import datetime
-import locale
-
-locale.setlocale(locale.LC_ALL, 'ja_JP.UTF-8')
-
-dt = datetime.datetime.now()
+# 月山蘭 から 皆様 : (6:16 午後)
+#  整数を1から100まで順に数え上げながら、 * 3 で割り切れるとき、 Fizz を出力 * 5 で割り切れるとき、 Buzz を出力 * 15 で割り切れるとき、 Fizz Buzz を出力 * それ以外のとき、数値をそのまま出力 するコードを書け。
 
 
-print(dt)
-print(dt.strftime('%c'))
-print(dt.strftime('%x'))
-print(dt.strftime('%X'))
-print(dt.strftime('%Y年 %m月 %d日 (%a) %I時 %M分'))
+for i in range(100):
+    if i % 15 == 0:
+        print("fizzbuzz")
+    elif i % 5 == 0:
+        print("buzz")
+    elif i % 3 == 0:
+        print("fizz")
+    else:
+        print("???")
