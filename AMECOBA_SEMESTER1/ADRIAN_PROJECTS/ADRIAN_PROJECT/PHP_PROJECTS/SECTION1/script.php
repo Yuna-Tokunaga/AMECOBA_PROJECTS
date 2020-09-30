@@ -1,9 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>HTML内にPHPのプログラムを組み込む</title>
+</head>
+<body>
+<h1><?php echo "PHPで見出しを表示"; ?></h1>
 <?php
-$num = 1;
-$num01 = 2;
-$num_1 = 3;
-
-echo $num."\n";
-echo $num01."\n";
-echo $num_1."\n";
+$str = "変数も表示できます！";
+echo "<p>{$str}</p>";
 ?>
+</body>
+</html>
